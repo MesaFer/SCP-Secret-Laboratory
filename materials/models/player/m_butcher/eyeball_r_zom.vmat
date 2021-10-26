@@ -1,0 +1,8 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureAmbientOcclusion "materials\models\player\m_butcher\eyeball_r_zom_ao.tga"
+}

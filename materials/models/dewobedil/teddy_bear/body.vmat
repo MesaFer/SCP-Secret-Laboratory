@@ -1,0 +1,11 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\dewobedil\teddy_bear\body_color.tga"
+	TextureNormal "materials\models\dewobedil\teddy_bear\body_normal.tga"
+	F_SPECULAR 1
+	TextureRoughness "materials\models\dewobedil\teddy_bear\body_rough.tga"
+}

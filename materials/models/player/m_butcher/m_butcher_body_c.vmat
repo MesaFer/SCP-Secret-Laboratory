@@ -1,0 +1,9 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\player\m_butcher\m_butcher_body_c_color.tga"
+	TextureNormal "materials\models\player\m_butcher\m_butcher_body_c_normal.tga"
+}

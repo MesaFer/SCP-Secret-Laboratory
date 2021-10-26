@@ -1,0 +1,9 @@
+// 
+// Clothing
+// 
+@BaseClass = clothing : ""
+[
+	title(string) : "Title" :  : ""
+	model(resource:vmdl) : "Model" :  : ""
+]
+

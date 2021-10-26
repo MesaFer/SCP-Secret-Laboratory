@@ -1,0 +1,18 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	data = 
+	{
+		id = "scp173"
+		displayname = "SCP - 173"
+		model = resource:"models/player/scp/173/scp.vmdl"
+		description = "You are a SCP 173"
+		maxplayers = 1
+		salary = 0
+		category = "default"
+		sortorder = 0
+		stamina = 0.0
+		walkspeed = "100"
+		sprintspeed = "440"
+		defaultspeed = "280"
+	}
+}

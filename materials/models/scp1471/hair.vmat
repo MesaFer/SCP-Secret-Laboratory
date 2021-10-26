@@ -1,0 +1,12 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\scp1471\hair_color.tga"
+	F_SPECULAR 1
+	TextureRoughness "[0.5131429570242343 0.5131429570242343 0.5131429570242343 0.000]"
+	F_ALPHA_TEST 1
+	TextureTranslucency "materials\models\scp1471\hair_trans.tga"
+}

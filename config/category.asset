@@ -1,0 +1,10 @@
+// 
+// SCP.Category
+// 
+@BaseClass = category : ""
+[
+	id(string) : "ID" :  : ""
+	displayname(string) : "Display Name" :  : ""
+	color(string) : "Color" :  : ""
+]
+

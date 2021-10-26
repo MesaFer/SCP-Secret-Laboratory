@@ -1,0 +1,9 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\humans\suits\joe_facemap_color.tga"
+	TextureNormal "materials\models\humans\suits\joe_facemap_normal.tga"
+}

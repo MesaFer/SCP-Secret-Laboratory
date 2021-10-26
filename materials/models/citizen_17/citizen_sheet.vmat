@@ -1,0 +1,12 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\citizen_17\citizen_sheet_color.tga"
+	TextureNormal "materials\models\citizen_17\citizen_sheet_normal.tga"
+	TextureAmbientOcclusion "materials\models\citizen_17\citizen_sheet_ao.tga"
+	F_SPECULAR 1
+	TextureRoughness "materials\models\citizen_17\citizen_sheet_rough.tga"
+}

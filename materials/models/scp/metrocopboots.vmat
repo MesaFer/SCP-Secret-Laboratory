@@ -1,0 +1,13 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\scp\metrocopboots_color.tga"
+	F_SPECULAR 1
+	TextureRoughness "[0.6021174375497318 0.6021174375497318 0.6021174375497318 0.000]"
+	TextureDetail "materials/models\scp\detail_leather.tga"
+	F_DETAIL_TEXTURE 1
+	g_vDetailTexCoordScale "[4 4]"
+}

@@ -1,0 +1,19 @@
+// 
+// SCP.Job
+// 
+@BaseClass = job : ""
+[
+	id(string) : "ID" :  : ""
+	displayname(string) : "Display Name" :  : ""
+	model(resource:vmdl) : "Model" :  : ""
+	description(string) : "Description" :  : ""
+	maxplayers(integer) : "Max Players" : 0 : ""
+	salary(integer) : "Salary" : 0 : ""
+	category(string) : "Category" :  : ""
+	stamina(float) : "Stamina" : 0 : ""
+	walkspeed(float) : "Walk Speed" : 0 : ""
+	sprintspeed(float) : "Sprint Speed" : 0 : ""
+	defaultspeed(float) : "Default Speed" : 0 : ""
+	sortorder(integer) : "Sort Order" : 0 : ""
+]
+

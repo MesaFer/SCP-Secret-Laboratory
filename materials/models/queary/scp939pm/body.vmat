@@ -1,0 +1,9 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\queary\scp939pm\body_color.tga"
+	TextureNormal "materials\models\queary\scp939pm\body_normal.tga"
+}

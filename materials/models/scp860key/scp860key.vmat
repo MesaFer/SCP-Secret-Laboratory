@@ -1,0 +1,10 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\scp860key\scp860key_color.tga"
+	F_TRANSLUCENT 1
+	TextureTranslucency "materials\models\scp860key\scp860key_trans.tga"
+}

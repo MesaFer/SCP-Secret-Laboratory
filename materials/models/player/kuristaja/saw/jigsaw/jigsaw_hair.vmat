@@ -1,0 +1,11 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\player\kuristaja\saw\jigsaw\jigsaw_hair_color.tga"
+	TextureNormal "materials\models\player\kuristaja\saw\jigsaw\jigsaw_hair_normal.tga"
+	F_TRANSLUCENT 1
+	TextureTranslucency "materials\models\player\kuristaja\saw\jigsaw\jigsaw_hair_trans.tga"
+}

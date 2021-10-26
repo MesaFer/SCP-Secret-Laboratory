@@ -1,0 +1,14 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\scp\cim_riot_2_color.tga"
+	g_vReflectanceRange "[0.000 0.5]"
+	TextureAmbientOcclusion "materials\models\scp\cim_riot_2_ao.tga"
+	g_flAmbientOcclusionDirectSpecular "1.000"
+	F_SPECULAR 1
+	TextureRoughness "[0.5665402815013616 0.5665402815013616 0.5665402815013616 0.000]"
+	g_vColorTint "[1.0 1.0 1.0 0.0]"
+}
