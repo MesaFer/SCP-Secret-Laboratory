@@ -17,8 +17,8 @@
   "libraries": {
     "base/1.0.0": {
       "type": "project",
-      "path": "../../base/code/base.csproj",
-      "msbuildProject": "../../base/code/base.csproj"
+      "path": "../../../../../Steam/Games/steamapps/common/sbox/Addons/base/code/base.csproj",
+      "msbuildProject": "../../../../../Steam/Games/steamapps/common/sbox/Addons/base/code/base.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Steam\\Games\\steamapps\\common\\sbox\\Addons\\sbox\\code\\sbox.csproj",
+      "projectUniqueName": "C:\\Users\\Пользователь\\Documents\\GitHub\\code\\sbox.csproj",
       "projectName": "sbox",
-      "projectPath": "C:\\Steam\\Games\\steamapps\\common\\sbox\\Addons\\sbox\\code\\sbox.csproj",
+      "projectPath": "C:\\Users\\Пользователь\\Documents\\GitHub\\code\\sbox.csproj",
       "packagesPath": "A:\\Users\\MesaFer\\.nuget\\packages\\",
-      "outputPath": "C:\\Steam\\Games\\steamapps\\common\\sbox\\Addons\\sbox\\code\\obj\\",
+      "outputPath": "C:\\Users\\Пользователь\\Documents\\GitHub\\code\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "A:\\Users\\MesaFer\\AppData\\Roaming\\NuGet\\NuGet.Config",
