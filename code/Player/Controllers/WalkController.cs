@@ -278,7 +278,6 @@ namespace SCP
 				{
 					if ( Player.Health <= 50 )
 					{
-						PlaySound("rust_pistol.shoot");
 						float speed173 = 300f + (500f / Player.Health) ;
 						return speed173;
 					}
