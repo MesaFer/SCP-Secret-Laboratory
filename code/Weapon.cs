@@ -156,24 +156,24 @@ public partial class Weapon : BaseWeapon, IUse
 		// ShootBullet is coded in a way where we can have bullets pass through shit
 		// or bounce off shit, in which case it'll return multiple results
 		//
-		foreach ( var tr in TraceBullet( pos, pos + forward * 5000, bulletSize ) )
+		foreach ( var trace in TraceBullet( pos, pos + forward * 5000, bulletSize ) )
 		{
-			tr.Surface.DoBulletImpact( tr );
+			trace.Surface.DoBulletImpact( tr );
 
 			if ( !IsServer ) continue;
-			if ( !tr.Entity.IsValid() ) continue;
+			if ( !trace.Entity.IsValid() ) continue;
 
 			//
 			// We turn predictiuon off for this, so any exploding effects don't get culled etc
 			//
 			using ( Prediction.Off() )
 			{
-				var damageInfo = DamageInfo.FromBullet( tr.EndPos, forward * 100 * force, damage )
-					.UsingTraceResult( tr )
+				var damageInfo = DamageInfo.FromBullet( trace.EndPos, forward * 100 * force, damage )
+					.UsingTraceResult( trace )
 					.WithAttacker( Owner )
 					.WithWeapon( this );
 
-				tr.Entity.TakeDamage( damageInfo );
+				trace.Entity.TakeDamage( damageInfo );
 			}
 		}
 	}
